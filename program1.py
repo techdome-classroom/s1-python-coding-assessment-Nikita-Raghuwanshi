@@ -9,6 +9,6 @@ class Solution:
         visited[i][j]=True
         #visited all the connected land
 
-        dfs(grid,i-1)
+        dfs(grid,i-1,j,visited)
                     
         return 0
