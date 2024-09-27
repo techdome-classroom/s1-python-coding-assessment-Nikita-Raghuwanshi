@@ -25,5 +25,5 @@ def decode_message( s: str, p: str) -> bool:
 print(decode_message("aa","a*"))
 print(decode_message("ab","a?"))  
 print(decode_message("ab","a*"))  
-print(decode_message("aa","a*"))    
+print(decode_message("abc","a*"))    
         return False
