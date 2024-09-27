@@ -17,6 +17,6 @@ class Solution:
     if not grid:
         return 0
     
-    
+    rows,cols=len(grid)
                     
         return 0
