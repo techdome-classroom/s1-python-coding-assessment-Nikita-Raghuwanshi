@@ -18,6 +18,8 @@ class Solution:
           return 0
     
         rows,cols=len(grid),len(grid[0])
+       
+        visited=[[False for]]
 
                     
         return 0
