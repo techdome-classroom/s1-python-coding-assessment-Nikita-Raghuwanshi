@@ -11,5 +11,6 @@ class Solution:
 
         dfs(grid,i-1,j,visited)
         dfs(grid,i+1,j,visited)
+        dfs(grid,i,j-1,visited)
                     
         return 0
