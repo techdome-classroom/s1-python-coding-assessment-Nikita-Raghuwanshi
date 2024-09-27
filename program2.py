@@ -19,9 +19,9 @@ def decode_message( s: str, p: str) -> bool:
             j+=1
         else:
             return False
-  if j<len(p) and p[j] == '*':
+  if j < len(p) and p[j] == '*':
         return True
-  return i==len(s) and j==len(p)
+  return i == len(s) and j == len(p)
 print(decode_message("aa","a*"))
 print(decode_message("ab","a?"))  
 print(decode_message("ab","a*"))  
