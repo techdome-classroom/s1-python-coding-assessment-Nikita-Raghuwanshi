@@ -5,7 +5,7 @@ def decode_message( s: str, p: str) -> bool:
         while i < len(s):
             if decode_message(s[i: ], p[j+1:]):
                 return True
-            i+=1
+            i +=1
         return decode_message(s[i:], p[j+1:])
   i=j=0
   while i<len(s) and len(p):
