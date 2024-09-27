@@ -16,6 +16,8 @@ def decode_message( s: str, p: str) -> bool:
             return match_star(i,j)
         elif p[j]==s[i]:
             i+=1
-            
+            j+=1
+        else:
+            return False
   
         return False
