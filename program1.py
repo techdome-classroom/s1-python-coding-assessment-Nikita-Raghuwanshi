@@ -15,7 +15,7 @@ class Solution:
         dfs(grid,i,j+1,visited)
 
        if not grid:
-        return 0
+          return 0
     
     rows,cols=len(grid),len(grid[0])
 
