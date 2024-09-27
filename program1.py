@@ -29,7 +29,8 @@ class Solution:
 
             #perform dfs
             dfs(grid,i,j,visited)
-            island_count
+            island_count+=1
+        re
 
                     
         return 0
