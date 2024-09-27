@@ -25,7 +25,7 @@ class Solution:
        #traverse
         for i in range(rows):
           for j in range(cols):
-          if grid[i][j]=='L' and not visited[i][j]:
+            if grid[i][j]=='L' and not visited[i][j]:
 
             #perform dfs
             dfs(grid,i,j,visited)
