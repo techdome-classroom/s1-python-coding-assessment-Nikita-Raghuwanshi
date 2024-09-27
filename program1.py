@@ -8,6 +8,7 @@ class Solution:
            return 
         visited[i][j]=True
         #visited all the connected land
-        
+
+        dfs(grid,i-1)
                     
         return 0
