@@ -19,7 +19,7 @@ class Solution:
     
         rows,cols=len(grid),len(grid[0])
        
-        visited=[[False for]]
+        visited=[[False for_in range(cols)]]
 
                     
         return 0
