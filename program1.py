@@ -25,7 +25,7 @@ class Solution:
        #traverse
        for i in range(rows):
         for i in range(cols):
-          if grid[i][j]=='L'
+          if grid[i][j]=='L' and not
 
                     
         return 0
