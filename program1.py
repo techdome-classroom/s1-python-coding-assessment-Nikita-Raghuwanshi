@@ -10,5 +10,6 @@ class Solution:
         #visited all the connected land
 
         dfs(grid,i-1,j,visited)
+        dfs(grid,i+1,)
                     
         return 0
