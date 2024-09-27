@@ -26,4 +26,3 @@ print(decode_message("aa","a*"))
 print(decode_message("ab","a?"))  
 print(decode_message("ab","a*"))  
 print(decode_message("abc","a*c"))    
-        return False
