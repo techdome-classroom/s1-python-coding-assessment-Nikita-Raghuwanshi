@@ -13,6 +13,6 @@ def decode_message( s: str, p: str) -> bool:
             i+=1
             j+=1
         elif p[j]=='*':
-            
+            return match_star(i,j)
   
         return False
