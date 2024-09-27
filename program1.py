@@ -23,7 +23,7 @@ class Solution:
         island_count=0
        
        #traverse
-       for i in range(rows):
+        for i in range(rows):
         for i in range(cols):
           if grid[i][j]=='L' and not visited[i][j]:
 
