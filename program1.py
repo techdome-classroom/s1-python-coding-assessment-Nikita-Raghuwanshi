@@ -4,6 +4,6 @@ class Solution:
     #    write your code here
     #function to perform dfs
        def dfs(grid,i,j,visited):
-        if
+        if i<0 or i>=
                     
         return 0
