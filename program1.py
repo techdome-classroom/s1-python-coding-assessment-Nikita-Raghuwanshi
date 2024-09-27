@@ -5,7 +5,7 @@ class Solution:
     #function to perform dfs
         def dfs(grid,i,j,visited):
           if i<0 or i>=len(grid) or j<0 or j>=len(grid[0]) or grid[i][j]=='W' or visited[i][j]:
-           return 
+            return 
         visited[i][j]=True
         #visited all the connected land
 
