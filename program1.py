@@ -27,6 +27,7 @@ class Solution:
         for i in range(cols):
           if grid[i][j]=='L' and not visited[i][j]:
 
+            #perform dfs
             
 
                     
