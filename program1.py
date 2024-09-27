@@ -17,7 +17,7 @@ class Solution:
        if not grid:
           return 0
     
-    rows,cols=len(grid),len(grid[0])
+         rows,cols=len(grid),len(grid[0])
 
                     
         return 0
