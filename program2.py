@@ -8,7 +8,7 @@ def decode_message( s: str, p: str) -> bool:
             i += 1
         return decode_message(s[i:], p[j+1:])
   i = j = 0
-  while i < len(s) and jlen(p):
+  while i < len(s) and j<len(p):
         if p[j] == '?':
             i += 1
             j += 1
