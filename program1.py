@@ -29,7 +29,7 @@ class Solution:
 
             #perform dfs
               dfs(grid,i,j,visited)
-            island_count+=1
+              island_count+=1
         return island_count
 
                     
