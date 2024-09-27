@@ -8,4 +8,5 @@ def decode_message( s: str, p: str) -> bool:
             i+=1
         return decode_message(s[i:],p[j+1:])
   
+  
         return False
