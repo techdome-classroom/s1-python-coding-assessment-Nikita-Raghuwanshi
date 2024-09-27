@@ -7,6 +7,6 @@ def decode_message( s: str, p: str) -> bool:
                 return True
             i+=1
         return decode_message(s[i:],p[j+1:])
-  
+  i=j=0
   
         return False
