@@ -16,5 +16,6 @@ class Solution:
 
     if not grid:
         return 0
+    
                     
         return 0
