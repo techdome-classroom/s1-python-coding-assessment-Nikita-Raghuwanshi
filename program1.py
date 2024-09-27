@@ -28,7 +28,7 @@ class Solution:
           if grid[i][j]=='L' and not visited[i][j]:
 
             #perform dfs
-            
+            dfs(grid,i,j,visited)
 
                     
         return 0
