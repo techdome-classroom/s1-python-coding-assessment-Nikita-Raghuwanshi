@@ -19,6 +19,6 @@ def decode_message( s: str, p: str) -> bool:
             j+=1
         else:
             return False
-if j
+if j<len(p)
   
         return False
